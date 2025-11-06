@@ -1,0 +1,55 @@
+# Dependency Directories
+########################
+# Node.js dependencies
+/node_modules
+/dist
+/build
+/temp
+/tmp
+
+# Logs and Debugging
+####################
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.nyc_output
+.tmp
+.DS_Store # macOS files
+Thumbs.db # Windows files
+
+# Environment Files
+###################
+# CRITICAL: Never commit files containing secrets like database URIs, API keys, or JWT secrets.
+.env
+.env.local
+.env.*.local
+.vscode/*.env # If you use VSCode config to store .env files
+
+# Runtime / Compiled Files
+##########################
+*.log
+*.pid # Process ID files
+*.seed
+*.sql
+*.sqlite
+*.tsbuildinfo # TypeScript build output
+
+# Test and Coverage
+###################
+/coverage
+/mochawesome-report
+
+# Editor/OS Specific Files
+##########################
+# Visual Studio Code
+.vscode/
+
+# IDE files (e.g., WebStorm, IntelliJ)
+.idea/
+
+# MongoDB specific
+##################
+# MongoDB stores data in these directories by default.
+/data/db
+/dump/
